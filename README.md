@@ -24,13 +24,37 @@ Visit the [official NAPS2 website](https://www.naps2.com/) for more information 
 - Flexible output formats, including compact PDF options.  
 - Progress tracking during scan operations.  
 - Compatibility with multiple NAPS2 Console library versions.  
-
 ---
 
-## Installation  
-This project already includes the necessary NAPS2 Console library. You do not need to download or install it separately.  
+## Usage  
 
+### Basic Scanning Example  
+```java
+NAPS2 naps = new NAPS2();
+
+List<Device> devices = naps.listDevices(Driver.TWAIN);
+PDFOptions options = new PDFOptions();
+options.setName("TEST");
+options.setAuthor("Gokul");
+options.setKeyWords("TEST");
+options.setSubject("Test");
+options.setPdfCompact(PDFCompact.A2_b);
+
+ScanResult advancedResult = naps.createScanBuilder()
+    .withDevice(devices.get(0))
+    .withDpi(300)
+    .withMode(Mode.COLOR)
+    .withPDFOptions(options)
+    .withSource(Source.DUPLEX)
+    .forceFileWrite(true)
+    .withOCRenabled(true, "eng")
+    .withDeskewEnabled(true)
+    .withRotation(90)
+    .withPageSize(PageSize.A4)
+    .showProgress(true)
+    .execute("\"" + System.getProperty("user.dir") + "/output2.pdf\"");
+```
 If you prefer to use a custom version of the NAPS2 Console library, you can specify its path explicitly in your Java code as shown below:  
-
 ```java
 NAPS2 naps = new NAPS2("/path/to/naps2/console/library/NAPS2.Console.exe");
+```
