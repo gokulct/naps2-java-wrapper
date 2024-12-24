@@ -1,0 +1,16 @@
+2024-12-20 14:47:57.3656 10228 An error occurred when trying to save the file. System.ArgumentException: Could not infer file format from extension: driver
+   at bool NAPS2.ImportExport.Images.SaveImagesOperation.Start(string fileName, Placeholders placeholders, IList<ProcessedImage> images, ImageSettings imageSettings, string overwriteFile, bool batch)+() => { } [0]
+2024-12-20 14:48:20.1546 16848 An error occurred when trying to save the file. System.ArgumentException: Could not infer file format from extension: p
+   at bool NAPS2.ImportExport.Images.SaveImagesOperation.Start(string fileName, Placeholders placeholders, IList<ProcessedImage> images, ImageSettings imageSettings, string overwriteFile, bool batch)+() => { } [0]
+2024-12-20 14:48:51.6671 4884 An error occurred when trying to save the file. System.ArgumentException: Could not infer file format from extension: driver
+   at bool NAPS2.ImportExport.Images.SaveImagesOperation.Start(string fileName, Placeholders placeholders, IList<ProcessedImage> images, ImageSettings imageSettings, string overwriteFile, bool batch)+() => { } [0]
+2024-12-20 14:53:56.4573 12320 An error occurred when trying to save the file. System.ArgumentException: Could not infer file format from extension: device
+   at bool NAPS2.ImportExport.Images.SaveImagesOperation.Start(string fileName, Placeholders placeholders, IList<ProcessedImage> images, ImageSettings imageSettings, string overwriteFile, bool batch)+() => { } [0]
+2024-12-20 14:54:37.7503 29824 An error occurred when trying to save the file. System.ArgumentException: Could not infer file format from extension: device
+   at bool NAPS2.ImportExport.Images.SaveImagesOperation.Start(string fileName, Placeholders placeholders, IList<ProcessedImage> images, ImageSettings imageSettings, string overwriteFile, bool batch)+() => { } [0]
+2024-12-20 15:38:09.7747 10804 An error occurred when trying to save the file. System.ArgumentException: Could not infer file format from extension: device
+   at bool NAPS2.ImportExport.Images.SaveImagesOperation.Start(string fileName, Placeholders placeholders, IList<ProcessedImage> images, ImageSettings imageSettings, string overwriteFile, bool batch)+() => { } [0]
+2024-12-20 15:38:23.7872 24848 An error occurred when trying to save the file. System.ArgumentException: Could not infer file format from extension: device
+   at bool NAPS2.ImportExport.Images.SaveImagesOperation.Start(string fileName, Placeholders placeholders, IList<ProcessedImage> images, ImageSettings imageSettings, string overwriteFile, bool batch)+() => { } [0]
+2024-12-20 15:39:22.3798 24712 An error occurred when trying to save the file. System.ArgumentException: Could not infer file format from extension: device
+   at bool NAPS2.ImportExport.Images.SaveImagesOperation.Start(string fileName, Placeholders placeholders, IList<ProcessedImage> images, ImageSettings imageSettings, string overwriteFile, bool batch)+() => { } [0]
