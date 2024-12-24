@@ -1,13 +1,13 @@
-package com.scan.naps;
+package com.naps2.naps;
 
-import com.scan.constants.Mode;
-import com.scan.constants.PDFCompact;
-import com.scan.constants.PageSize;
-import com.scan.constants.Source;
-import com.scan.devices.Device;
-import com.scan.exceptions.ScanExceptions;
-import com.scan.pdf.PDFOptions;
-import com.scan.results.ScanResult;
+import com.naps2.constants.Mode;
+import com.naps2.constants.PDFCompact;
+import com.naps2.constants.PageSize;
+import com.naps2.constants.Source;
+import com.naps2.devices.Device;
+import com.naps2.exceptions.ScanExceptions;
+import com.naps2.pdf.PDFOptions;
+import com.naps2.results.ScanResult;
 
 import java.io.IOException;
 import java.util.ArrayList;

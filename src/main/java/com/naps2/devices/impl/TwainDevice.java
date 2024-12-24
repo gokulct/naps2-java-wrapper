@@ -1,7 +1,7 @@
-package com.scan.devices.impl;
+package com.naps2.devices.impl;
 
-import com.scan.constants.Driver;
-import com.scan.devices.Device;
+import com.naps2.constants.Driver;
+import com.naps2.devices.Device;
 
 public class TwainDevice implements Device {
 

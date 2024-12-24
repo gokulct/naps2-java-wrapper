@@ -1,6 +1,6 @@
-package com.scan.devices;
+package com.naps2.devices;
 
-import com.scan.constants.Driver;
+import com.naps2.constants.Driver;
 
 public interface Device {
     public String getName();

@@ -1,4 +1,4 @@
-package com.scan.constants;
+package com.naps2.constants;
 
 public enum Mode {
     COLOR,BW,GRAY

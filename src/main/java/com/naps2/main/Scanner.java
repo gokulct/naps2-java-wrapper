@@ -1,11 +1,11 @@
-package com.scan.main;
+package com.naps2.main;
 
-import com.scan.constants.*;
-import com.scan.devices.Device;
-import com.scan.exceptions.ScanExceptions;
-import com.scan.naps.NAPS2;
-import com.scan.pdf.PDFOptions;
-import com.scan.results.ScanResult;
+import com.naps2.constants.*;
+import com.naps2.devices.Device;
+import com.naps2.exceptions.ScanExceptions;
+import com.naps2.naps.NAPS2;
+import com.naps2.pdf.PDFOptions;
+import com.naps2.results.ScanResult;
 
 import java.io.IOException;
 import java.util.List;

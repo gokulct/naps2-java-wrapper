@@ -1,6 +1,6 @@
-package com.scan.pdf;
+package com.naps2.pdf;
 
-import com.scan.constants.PDFCompact;
+import com.naps2.constants.PDFCompact;
 
 public class PDFOptions {
     private String name;

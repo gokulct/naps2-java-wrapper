@@ -1,4 +1,4 @@
-package com.scan.results;
+package com.naps2.results;
 
 public class ScanResult {
     private final int exitCode;

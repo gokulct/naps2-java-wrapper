@@ -1,13 +1,12 @@
-package com.scan.naps;
+package com.naps2.naps;
 
-import com.scan.constants.Driver;
-import com.scan.devices.Device;
-import com.scan.devices.impl.SANEDevice;
-import com.scan.devices.impl.TwainDevice;
-import com.scan.devices.impl.WIADevice;
-import com.scan.exceptions.ScanExceptions;
-import com.scan.main.Scanner;
-import com.scan.results.ScanResult;
+import com.naps2.constants.Driver;
+import com.naps2.devices.Device;
+import com.naps2.devices.impl.SANEDevice;
+import com.naps2.devices.impl.TwainDevice;
+import com.naps2.devices.impl.WIADevice;
+import com.naps2.exceptions.ScanExceptions;
+import com.naps2.results.ScanResult;
 
 import java.io.IOException;
 import java.util.ArrayList;
